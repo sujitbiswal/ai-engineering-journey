@@ -66,3 +66,24 @@ too_expensive = 'ducati'
 motorcycles.remove(too_expensive)
 print(motorcycles)
 print(f"\nA {too_expensive.title()} is too expensive for me")
+
+# Sorting a list permanently with sort() method
+cars = ['bmw','audi','toyota','subaru']
+cars.sort()
+print(cars)
+
+# Sorting by reverse order
+cars = ['bmw','audi','toyota','subaru']
+cars.sort(reverse=True)
+print(cars)
+
+# Sorting a list temporarily with sorted() function
+cars = ['bmw','audi','toyota','subaru']
+print("Here is the original list:")
+print(cars)
+
+print("\nHere is the sorted list:")
+print(sorted(cars))
+
+print("\nHere is the original list again:")
+print(cars)
