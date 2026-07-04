@@ -36,21 +36,21 @@ import numpy as np
 
 # print(high)
 
-# ---- EXERCISE - Part 1 — Array basics & vectorization ----
+# # ---- EXERCISE - Part 1 — Array basics & vectorization ----
 # balances = np.array([45, 52, 38, 61, 49, 55, 42])
 # print(f"Balances: {balances}")
 # print(f"After 5L inflow: {balances + 5}")
 # print(f"Above 50: {balances > 50}")
 
-# -----EXERCISE - Part 2 - Aggregations -----
+# # -----EXERCISE - Part 2 - Aggregations -----
 # balances = np.array([45, 52, 38, 61, 49, 55, 42])
 # print(f"Total: {balances.sum()} lakhs")
 # print(f"Average: {round(balances.mean(),2)} lakhs")
 # print(f"Max: {balances.max()} | Min: {balances.min()}")
 # print(f"Std dev: {round(balances.std(),2)}")
 
-# -----EXERCISE - Part 3 - Boolean filtering -----
-balances = np.array([45, 52, 38, 61, 49, 55, 42])
-low = balances[balances < 45]
-print(f"Low-liquidity days (<45): {low}")
-print(f"Count of low days: {len(low)}")
+# # -----EXERCISE - Part 3 - Boolean filtering -----
+# balances = np.array([45, 52, 38, 61, 49, 55, 42])
+# low = balances[balances < 45]
+# print(f"Low-liquidity days (<45): {low}")
+# print(f"Count of low days: {len(low)}")
