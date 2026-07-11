@@ -1,0 +1,4 @@
+invoice_id,vendor,amount,status
+INV-003,Initech,15000.0,Approved
+INV-005,Stark Industries,42000.0,Approved
+INV-008,Tyrell Corp,11200.0,Approved
